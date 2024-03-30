@@ -161,7 +161,7 @@ background-color: var(--textColor);
     height: 60vh;
     border-radius: 20px;
     transition: all linear 0.3s;
-    
+    margin-bottom: 5vh;
 }
 
 .card img:hover{
@@ -170,9 +170,12 @@ background-color: var(--textColor);
 
 .page3-btns{
     display: flex;
-    justify-content: space-around;
     align-items: center;
-    margin-top: 7vh;
+    
+}
+
+.page3-btn1{
+    margin-left: 8vw;
 }
 
 .page3-btn1 a{
@@ -182,6 +185,7 @@ background-color: var(--textColor);
     font-size: 3vw;
     padding: 0.5vw 10vw;
     border-radius: 3px;
+    
 }
 
 .page3-btn1 a:hover{
@@ -189,6 +193,10 @@ background-color: var(--textColor);
     color: var(--textColor);
 }
 
+
+.page3-btn2{
+    margin-left: 5vw;
+}
 
 .page3-btn2 a{
     color: var(--textColor2);
@@ -448,3 +456,443 @@ height: 18vh;
 
 /* end page5 */
 
+/* Responsive part start */
+
+@media (max-width:430px) {
+    
+#page1{
+    height: 50vh;
+    width: 100%;
+    
+}
+
+nav{
+    height: 18vh;
+    width: 100%;
+    background-color:var(--mainColor);
+    display: flex;
+    gap: 1vw;
+    padding-top: 8vh;
+}
+
+nav a{
+    text-decoration: none;
+    color:var(--textColor);
+    font-weight: 10;
+
+}
+
+nav img{
+    height: 11vh;
+    margin-top: -4vh;
+    margin-left: 3vw;
+    
+}
+
+.nav2 a{
+    display: none;
+}
+
+
+.nav3 a{
+    display: none;
+}
+
+.nav4 a{
+    margin-left: 18vw;
+    background-color: transparent;
+    border: 2px solid #fff;
+    border-radius: 20px;
+    padding: 1vw 3vw;
+    transition: all linear 0.1s;
+    font-size: 3.5vw;
+    overflow: hidden;
+}
+
+
+
+
+/* end page1 */
+
+
+/* start page2 */
+
+#page2{
+    height: 140vh;
+    width: 100%;
+margin-top: -120vh;
+}
+
+.page2-img{
+    background-image: url(images/pepsi3.png);
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+height: 215vh;
+}
+
+.shop-now{
+    position: absolute;
+    top: 110vh;
+    left: 25vw;
+}
+
+
+#page2 a{
+    text-decoration: none;
+background-color: var(--textColor);
+    color: var(--textColor2);
+    padding: 1vw 7vw;
+    position: absolute;
+    font-size: 6vw;
+    border-radius: 2px;
+    transition: all linear 0.1s;
+    text-wrap: nowrap;
+}
+
+#page2 a:hover{
+    color:var(--textColor);
+    background-color: var(--mainColor);
+
+}
+
+/* end page2 */
+
+
+/* start page3 */
+
+#page3{
+    height: 110vh;
+    width: 100%;
+    background-image: url(images/cherry.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#page3 h2{
+    color: var(--textColor);
+    font-size: 7vw;
+    border: none;
+    text-align: center;
+    padding-top: 5vh;
+    line-height: 30px;
+    letter-spacing: 3px;
+}
+
+.page3-cards{
+    display: flex;
+    flex-direction: column;
+    gap: 2vw;
+    margin-left: 2vw;
+    margin-top: 10vh;
+    cursor: pointer;
+}
+
+.card img{
+    height: 27vh;
+    border-radius: 20px;
+    transition: all linear 0.3s;
+    
+}
+
+.card img:hover{
+    box-shadow: 0 0 4rem var(--mainColor);
+}
+
+.page3-btns{
+    display: flex;
+    
+}
+
+.page3-btn1{
+    margin-left: 20vw;
+    margin-bottom: 3vh;
+}
+
+.page3-btn2{
+    margin-left: 14vw;
+    
+}
+
+.page3-btn1 a{
+    color: var(--textColor2);
+    background-color: var(--textColor);
+    text-decoration: none;
+    font-size: 5vw;
+    padding: 1vw 16vw;
+    border-radius: 3px;
+}
+
+.page3-btn1 a:hover{
+    background-color: var(--mainColor);
+    color: var(--textColor);
+}
+
+
+.page3-btn2 a{
+    color: var(--textColor2);
+    background-color: var(--textColor);
+    text-decoration: none;
+    font-size: 5vw;
+    padding: 1vw 8vw;
+    border-radius: 3px;
+}
+
+.page3-btn2 a:hover{
+    background-color: var(--mainColor);
+    color: var(--textColor);
+}
+
+/* end page3 */
+
+/* start page4 */
+
+#page4{
+    min-height: 100vh;
+    width: 100%;
+    background-color:#000000;
+    padding-bottom: 10vh;
+}
+
+#page4 i{
+    color: #fff;
+    position: absolute;
+    font-size: 8vw;
+    margin-top: 2vh;
+    margin-left: -60vw;
+
+}
+
+#page4 h3{
+    font-size: 7vw;
+    text-align: center;
+    letter-spacing: 4px;
+    color: var(--mainColor);
+    margin-top: 6vh;
+}
+
+.social-media{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 4vh;
+    
+}
+
+.for-instagram{
+    height: 35vh;
+    overflow: hidden;
+    cursor: pointer;
+    margin-left: 1vw;
+}
+
+.for-instagram img{
+    height: 100%;
+    border-top: 3px sold var(--mainColor);
+    border-left: 3px solid var(--mainColor);
+    border-bottom: 3px solid var(--mainColor);
+    transition: all linear 0.3s;
+    overflow: hidden;
+
+}
+
+.for-instagram img:hover{
+    scale: 1.2;
+    rotate: 9deg;
+}
+
+.for-twitter{
+    height: 35vh;
+    overflow: hidden;
+    cursor: pointer;
+    margin-left: -1.5vw;
+}
+
+.for-twitter img{
+    height: 100%;
+    border-top: 3px solid var(--mainColor);
+    border-bottom: 3px solid var(--mainColor);
+    transition: all linear 0.3s;
+    overflow: hidden;
+
+}
+
+
+.for-twitter img:hover{
+    scale: 1.2;
+    rotate: 9deg;
+}
+
+.for-facebook{
+    height: 35vh;
+    overflow: hidden;
+    cursor: pointer;
+    margin-left: -1.5vw;
+}
+
+.for-facebook img{
+    height: 100%;
+    border-top: 3px solid var(--mainColor);
+    border-bottom: 3px solid var(--mainColor);
+    transition: all linear 0.3s;
+    overflow: hidden;
+}
+
+
+.for-facebook img:hover{
+    scale: 1.2;
+    rotate: 9deg;
+}
+
+.for-youtube{
+    height: 35vh;
+    overflow: hidden;
+    cursor: pointer;
+    margin-left: -1.5vw;
+}
+
+.for-youtube img{
+    height: 100%;
+    border-top: 3px solid var(--mainColor);
+    transition: all linear 0.3s;
+    border-bottom: 3px solid var(--mainColor);
+    overflow: hidden;
+
+}
+
+.for-youtube img:hover{
+    scale: 1.2;
+    rotate: 9deg;
+}
+
+.for-tiktok{
+    height: 35vh;
+    overflow: hidden;
+    cursor: pointer;
+    margin-left: -1.5vw;
+}
+
+.for-tiktok img{
+    height: 100%;
+    border-top: 3px solid var(--mainColor);
+    border-bottom: 3px solid var(--mainColor);
+    transition: all linear 0.3s;
+    overflow: hidden;
+
+}
+
+
+.for-tiktok img:hover{
+    scale: 1.2;
+    rotate: 9deg;
+}
+
+.for-threads{
+    height: 35vh;
+    overflow: hidden;
+    cursor: pointer;
+    margin-left: -1.5vw;
+}
+
+.for-threads img{
+    height: 100%;
+    border-top: 3px solid var(--mainColor);
+    border-bottom: 3px solid var(--mainColor);
+    border-right: 3px solid var(--mainColor);
+    transition: all linear 0.2s;
+    overflow: hidden;
+
+}
+
+.for-threads img:hover{
+    scale: 1.2;
+    rotate: 9deg;
+}
+/* end page4 */
+
+/* start page5 */
+
+#page5{
+    height: 75vh;
+    width: 100%;
+    background-color: var(--mainColor);
+}
+
+footer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    align-items: center;
+    gap: 6vw;
+    padding-top: 7vh;
+}
+
+footer i{
+    color: var(--textColor);
+    font-size: 7vw;
+    font-weight: -100;
+    cursor: pointer;
+}
+
+footer i:hover{
+    color: #999;
+}
+
+footer a{
+    text-decoration: none;
+    color: var(--textColor);
+    letter-spacing: 1px;
+}
+
+footer a:hover{
+    color: #999;
+}
+
+
+
+.footer-1 img{
+height: 18vh;
+}
+
+.footer-2{
+    display: flex;
+    flex-direction: column;
+    margin-left: 10vw;
+}
+
+
+.footer-3{
+    display: flex;
+    flex-direction: column;
+}
+
+
+.footer-4{
+    display: flex;
+    flex-direction: column;
+}
+
+
+.last-link{
+    margin-top: 2vh;
+    text-align: end;
+    margin-right: 3vw;
+    font-size: 3vw;
+}
+
+.last-link a{
+    color: var(--textColor);
+    
+}
+
+/* end page5 */
+
+
+}
+
+
+
+
+/* Responsive part start */
